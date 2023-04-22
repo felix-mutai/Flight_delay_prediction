@@ -1,7 +1,6 @@
 import numpy as np
 import pickle
 import streamlit as st
-import category_encoders as ce
 from threading import local
 import pandas as pd
 from sklearn.model_selection import train_test_split
