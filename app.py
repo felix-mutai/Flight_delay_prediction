@@ -4,7 +4,6 @@ import streamlit as st
 from threading import local
 import pandas as pd
 
-from sklearn.linear_model import LogisticRegression
 
 
 # loading the saved model
