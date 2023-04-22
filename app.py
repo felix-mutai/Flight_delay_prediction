@@ -7,7 +7,7 @@ import pandas as pd
 
 
 # loading the saved model
-loaded_model = pickle.load(open('C:/Users/User/PycharmProjects/pythonProject/model.pkl', 'rb'))
+loaded_model = pickle.load(open('model.pkl', 'rb'))
 
 
 # creating a function for Prediction
