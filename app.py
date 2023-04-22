@@ -3,7 +3,6 @@ import pickle
 import streamlit as st
 from threading import local
 import pandas as pd
-from sklearn.model_selection import train_test_split
 from sklearn.compose import make_column_selector as selector
 from sklearn.linear_model import LogisticRegression
 
