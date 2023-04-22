@@ -3,7 +3,7 @@ import pickle
 import streamlit as st
 from threading import local
 import pandas as pd
-from sklearn.compose import make_column_selector as selector
+
 from sklearn.linear_model import LogisticRegression
 
 
