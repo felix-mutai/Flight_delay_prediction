@@ -61,8 +61,7 @@ def main():
     elif Month == "November":
         Month = 11    
     else:
-        Month = 12
-    Airline = st.text_input('Flight airline')
+        Month = 12    
     
     Airline = st.selectbox("Flight airline", ('05U', '3J', '3W', '5H', 'AT1', 'AT', 'B5', 'BA', 'CZ', 'D3', 'DO',
        'EK', 'EY', 'F8', 'G9', 'KL', 'LH', 'LX', 'MK', 'MS', 'PW', 'QR',
