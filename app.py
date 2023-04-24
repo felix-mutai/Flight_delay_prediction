@@ -23,7 +23,7 @@ def flight_prediction(input_data):
     print(prediction)
 
     if prediction[0] == 0:
-        return 'The flight will not delayed'
+        return 'The flight will not delay'
     else:
         return 'The flight will delay'
 
