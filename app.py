@@ -23,9 +23,9 @@ def flight_prediction(input_data):
     print(prediction)
 
     if prediction[0] == 0:
-        return 'The flight is not delayed'
+        return 'The flight will not delayed'
     else:
-        return 'The flight is delayed'
+        return 'The flight will delay'
 
 
 def main():
@@ -34,20 +34,20 @@ def main():
 
     # getting the input data from the user
 
-    Day = st.text_input('Number of days')
-    Month = st.text_input('The month of flight departure')
+    Day = st.text_input('Date of the Month')
+    Month = st.text_input('The month')
     Airline = st.text_input('Flight airline')
 
-    flightclass = st.selectbox("What the flight class", ("INT", "DOM"))
+    flightclass = st.selectbox("Flight Class (International/Domestic)", ("INT", "DOM"))
     if flightclass == "INT":
         flightclass = 1
     else:
         flightclass = 0
 
-    capacity = st.text_input('The capacity size')
+    capacity = st.text_input('Flight Capacity')
     timediff = st.text_input('Flight time difference')
     night1 = st.text_input('Night1 value')
-    season = st.selectbox("State flight season", ("Summer", "Winter"))
+    season = st.selectbox("Season", ("Summer", "Winter"))
     if season == "Summer":
         season = 1
     else:
