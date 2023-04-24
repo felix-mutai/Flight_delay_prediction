@@ -44,9 +44,7 @@ def main():
     else:
         flightclass = 0
 
-    capacity = st.text_input('Flight Capacity')
-    timediff = st.text_input('Flight time difference')
-    night1 = st.text_input('Night1 value')
+    capacity = st.text_input('Flight Capacity')    
     season = st.selectbox("Season", ("Summer", "Winter"))
     if season == "Summer":
         season = 1
