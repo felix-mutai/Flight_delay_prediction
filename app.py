@@ -58,7 +58,7 @@ def main():
 
     if st.button('Flight prediction results'):
         prediction_analysis = flight_prediction(
-            [Day, Month, Airline, flightclass, capacity,timediff,night1, season])
+            [Day, Month, Airline, flightclass, capacity, season])
 
     st.success(prediction_analysis)
 
